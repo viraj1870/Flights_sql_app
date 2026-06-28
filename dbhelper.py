@@ -7,7 +7,7 @@ class DB:
             self.conn = mysql.connector.connect(
                 host='database-1.codzmntflx6t.ap-northeast-1.rds.amazonaws.com',
                 user='admin',
-                password='911Pentagon',
+                password='Your password',
                 database='flights'
             )
             self.mycursor = self.conn.cursor()
